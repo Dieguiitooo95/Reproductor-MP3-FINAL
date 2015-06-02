@@ -58,7 +58,7 @@ public class Interfaz extends JFrame {
 		btnStop.setIcon(new ImageIcon(Interfaz.class.getResource("/images/stop.png")));
 		btnStop.setForeground(UIManager.getColor("Button.foreground"));
 		btnStop.setBackground(UIManager.getColor("Button.select"));
-		btnStop.setBounds(0, 190, 160, 80);
+		btnStop.setBounds(0, 190, 150, 80);
 		contentPane.add(btnStop);
 		btnStop.setFocusPainted(false);
 		/*btnStop.addActionListener(new ActionListener(){
@@ -79,14 +79,14 @@ public class Interfaz extends JFrame {
 		btnP.setForeground(UIManager.getColor("Button.foreground"));
 
 		
-		btnP.setBounds(140, 220, 170, 80);
+		btnP.setBounds(150, 220, 150, 80);
 		contentPane.add(btnP);
 		
 		JButton btnPause = new JButton("");
 		btnPause.setIcon(new ImageIcon(Interfaz.class.getResource("/images/pause.png")));
 		btnPause.setBackground(UIManager.getColor("Button.select"));
 		btnPause.setForeground(UIManager.getColor("Button.foreground"));
-		btnPause.setBounds(290, 190, 160, 80);
+		btnPause.setBounds(300, 190, 150, 80);
 		
 		contentPane.add(btnPause);
 		
